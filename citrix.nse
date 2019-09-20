@@ -1,5 +1,5 @@
 description = [[
-Path traversal script para Nmap
+Detecta si hay Citrix
 ]]
 
 local http = require "http"
