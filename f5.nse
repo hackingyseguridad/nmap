@@ -1,5 +1,5 @@
 description = [[
-Path traversal script para Nmap
+Detecta F5
 ]]
 
 local http = require "http"
