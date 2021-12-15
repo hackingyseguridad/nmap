@@ -1,6 +1,6 @@
 # nmap
 
-simples script para nmap para detectar Path Traversal:
+Coleccion de simples NSE-script para nmap, para detectar Path Traversal y otras vulnerabilidades 
 
 git clone https://github.com/hackingyseguridad/nmap/
 
